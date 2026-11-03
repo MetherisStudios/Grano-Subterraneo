@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grano Subterráneo | Café de especialidad en Atlántida</title>
+  <meta name="description" content="Café de especialidad, desayunos y meriendas en Atlántida, Canelones. Pastelería casera, take away y reservas por WhatsApp.">
+  <meta name="theme-color" content="#2E1104">
+  <meta property="og:title" content="Grano Subterráneo · Café de especialidad en Atlántida">
+  <meta property="og:description" content="Desayunos y meriendas con pastelería casera. Reservá tu lugar por WhatsApp.">
+  <meta property="og:image" content="img/cartel.jpg">
+  <link rel="icon" href="img/logo-grano-subterraneo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Pantalla de entrada -->
+<div class="intro" id="intro" aria-hidden="true">
+  <img class="intro-granos" src="img/deco-granos.svg" alt="">
+  <img class="intro-logo" src="img/logo-grano-subterraneo.svg" alt="">
+</div>
+
+<header class="header" id="header">
+  <div class="contenedor header-in">
+    <a href="#inicio" class="marca" aria-label="Grano Subterráneo, inicio">
+      <img src="img/nombre-blanco.svg" alt="Grano Subterráneo" width="190" height="50">
+    </a>
+    <nav class="menu" id="menu" aria-label="Principal">
+      <a href="#carta">Carta</a>
+      <a href="#tu-cafe">Tu café</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#el-lugar">El lugar</a>
+      <a href="#visitanos">Visitanos</a>
+      <a href="#reservar" class="menu-reservar">Reservá</a>
+    </nav>
+    <button class="hamburguesa" id="hamburguesa" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- PORTADA -->
+<section class="portada" id="inicio">
+  <img class="deco deco-granos-izq" src="img/deco-granos.svg" alt="">
+  <img class="deco deco-granos-der" src="img/deco-granos.svg" alt="">
+  <img class="deco deco-taza" src="img/deco-taza.svg" alt="">
+  <img class="deco deco-vapor" src="img/deco-vapor.svg" alt="">
+
+  <div class="contenedor portada-in">
+    <img class="portada-logo revelar" src="img/logo-grano-subterraneo.svg" alt="Grano Subterráneo" width="1328" height="808">
+    <p class="portada-mano revelar">café de especialidad en Atlántida</p>
+    <p class="portada-bajada revelar">Desayunos y meriendas con pastelería casera.<br>Para quedarte un rato o llevártelo.</p>
+    <div class="portada-botones revelar">
+      <a href="#reservar" class="boton boton-cafe">Reservá tu lugar</a>
+      <a href="#carta" class="boton boton-linea">Ver la carta</a>
+    </div>
+  </div>
+
+  <div class="portada-fotos">
+    <figure class="pf pf1 revelar">
+      <img src="img/latte-tostado.jpg" alt="Latte con arte latte y tostado de jamón y queso" width="691" height="832">
+      <figcaption>Latte</figcaption>
+    </figure>
+    <figure class="pf pf2 revelar">
+      <img src="img/roll-canela.jpg" alt="Roll de canela glaseado" width="521" height="773">
+      <figcaption>Roll de canela</figcaption>
+    </figure>
+    <figure class="pf pf3 revelar">
+      <img src="img/budin-zanahoria.jpg" alt="Budín de zanahoria con frosting" width="516" height="812">
+      <figcaption>Budín de zanahoria</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- CARTA -->
+<section class="seccion carta" id="carta">
+  <img class="deco deco-personaje" src="img/deco-grano-personaje.svg" alt="">
+  <div class="contenedor">
+    <div class="titulo-seccion">
+      <p class="mano">mirá nuestra</p>
+      <h2>Carta</h2>
+    </div>
+
+    <div class="carta-tabs" role="tablist" aria-label="Carta">
+      <button role="tab" id="b-tomar" aria-controls="tab-tomar" aria-selected="true">Para tomar</button>
+      <button role="tab" id="b-comer" aria-controls="tab-comer" aria-selected="false" tabindex="-1">Para comer</button>
+    </div>
+
+    <!-- BEBIDAS -->
+    <div class="carta-hoja" role="tabpanel" id="tab-tomar" aria-labelledby="b-tomar">
+      <article class="caja">
+        <h3 class="caja-titulo">Cafés</h3>
+        <h4 class="banda">Carta básica</h4>
+        <ul class="items">
+          <li>Espresso</li><li>Espresso doble</li><li>Cortado</li><li>Americano</li><li>Long black</li><li>Cappuccino</li><li>Flat white</li><li>Latte</li><li>Mocha</li>
+        </ul>
+        <h4 class="banda">Especiales</h4>
+        <ul class="items">
+          <li>Caramel macchiato<small>Latte + syrup de caramelo</small></li>
+          <li>Vanilla latte<small>Latte + syrup de vainilla</small></li>
+          <li>Dulce de leche latte<small>Latte + syrup de dulce de leche</small></li>
+          <li>Chai latte<small>Té chai + leche</small></li>
+          <li>Bulletproof coffee<small>Leche de avena + espresso + aceite de coco</small></li>
+        </ul>
+      </article>
+
+      <article class="caja">
+        <h3 class="caja-titulo chico">Tés &amp; sin café</h3>
+        <ul class="items">
+          <li>Chocolate caliente</li><li>Submarino</li>
+          <li>Té<small>Blends seleccionados</small></li>
+        </ul>
+        <h4 class="banda">Lattes de autor</h4>
+        <ul class="items">
+          <li>Subterráneo<small>Espresso, leche, syrup de dulce de leche, crema batida y salsa de caramelo</small></li>
+          <li>Silvestre<small>Espresso, leche, syrup de frutos rojos, crema batida y salsa de chocolate</small></li>
+          <li>Pistacho mocha<small>Espresso, leche, syrup de pistacho y de chocolate, crema batida y salsa de chocolate</small></li>
+        </ul>
+        <p class="nota">(No incluidos en merienda / desayuno)</p>
+        <h4 class="banda">Smoothies</h4>
+        <ul class="items">
+          <li>Frutos rojos</li><li>Banatilla</li><li>Banana</li><li>Frutilla</li>
+        </ul>
+        <p class="nota">Base de agua, leche o jugo de naranja</p>
+      </article>
+
+      <article class="caja">
+        <h3 class="caja-titulo"><span class="caja-pre">Cafés</span>Fríos</h3>
+        <h4 class="banda">Frappés</h4>
+        <ul class="items">
+          <li>Subterráneo<small>Dulce de leche, crema batida y caramelo</small></li>
+          <li>Silvestre<small>Frutos rojos, crema batida y chocolate</small></li>
+          <li>Pistacho mocha<small>Pistacho, chocolate y crema batida</small></li>
+          <li>Banana split<small>Banana, dulce de leche y crema batida</small></li>
+          <li>Berry<small>Frutilla, salsa de frutilla y crema batida</small></li>
+        </ul>
+        <h4 class="banda">Iced's</h4>
+        <ul class="items">
+          <li>Americano</li><li>Latte</li><li>Caramel</li><li>Dulce de leche</li><li>Vainilla</li>
+        </ul>
+        <h4 class="banda">Otras bebidas</h4>
+        <ul class="items">
+          <li>Limo Subterránea<small>Limón, agua, menta, jengibre y almíbar</small></li>
+          <li>Exprimido de naranja</li><li>Agua y refrescos</li>
+        </ul>
+      </article>
+    </div>
+
+    <!-- COMIDA -->
+    <div class="carta-hoja dos" role="tabpanel" id="tab-comer" aria-labelledby="b-comer" hidden>
+      <article class="caja">
+        <h3 class="caja-titulo">Salado</h3>
+        <ul class="items">
+          <li>Sándwich caliente JyQ</li>
+          <li>Medialuna simple grande</li>
+          <li>Medialuna rellena JyQ</li>
+          <li>Croissant</li>
+          <li>Croissant de queso</li>
+          <li>Croissant relleno<small>Con queso crema, rúcula y bondiola</small></li>
+          <li>Chipá</li>
+          <li>Chipá JyQ</li>
+          <li>Chipá lomito y cheddar</li>
+          <li>Scon de queso</li>
+          <li>Focaccia<small>Romero, tomates confitados y cebolla colorada. Rellena de pesto, queso y mortadela</small></li>
+          <li>Avocado toast</li>
+        </ul>
+      </article>
+
+      <article class="caja">
+        <h3 class="caja-titulo">Dulce</h3>
+        <ul class="items">
+          <li>Roll de canela</li><li>Roll de canela y manzana</li><li>Brownie de chocolate</li><li>Budín de limón glaseado</li>
+          <li>Budín de zanahoria con frosting</li><li>Crumble de manzana</li><li>Trufas</li>
+          <li>Bowl de yogurt y frutas<small>Con granola, chispas de chocolate y salsa de arándanos</small></li>
+        </ul>
+        <h4 class="banda">Cookies</h4>
+        <ul class="items dos-col">
+          <li>Chispas de chocolate</li><li>Chocolate con DDL</li><li>Red velvet</li><li>Carrot</li><li>Avena con chispas</li>
+        </ul>
+        <h4 class="banda">Alfajores</h4>
+        <ul class="items dos-col">
+          <li>Maicena</li><li>Marplatense</li><li>Choco blanco con DDL</li><li>Choco blanco con membrillo</li><li>Alfabrownie</li><li>Sablée</li>
+        </ul>
+        <h4 class="banda">Tortas</h4>
+        <ul class="items">
+          <li>Carrot cake</li>
+          <li>Tortas del día<small>Matilda, cheesecake, torta brownie, red velvet y más</small></li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="promos">
+      <div class="promos-titulo">Promociones</div>
+      <div class="promos-cuerpo">
+        <p>Promos para desayunar y merendar, <strong>para uno o para compartir</strong>: bebida, exprimido de naranja y algo rico de la casa. Los precios cambian, así que te pasamos los vigentes al toque.</p>
+        <div class="promos-botones">
+          <a class="boton boton-cafe" data-wa="Hola! Quería consultar los precios y las promos vigentes de Grano Subterráneo." href="#">Consultar precios y promos</a>
+          <a class="pedidosya" data-pedidosya href="#" target="_blank" rel="noopener" hidden><span>También en</span> <b>PedidosYa</b></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TU CAFÉ -->
+<section class="seccion tu-cafe" id="tu-cafe">
+  <img class="deco deco-vapor-2" src="img/deco-vapor.svg" alt="">
+  <div class="contenedor tu-cafe-in">
+    <div class="niveles-zona">
+      <div class="titulo-seccion izq">
+        <p class="mano">¿qué lleva cada uno?</p>
+        <h2>Niveles de ingredientes</h2>
+      </div>
+      <div class="taza-etapa">
+        <div class="tg-etiquetas" id="tg-etiquetas" aria-live="polite"></div>
+        <svg class="taza-grande" id="taza-grande" viewBox="0 0 260 240" role="img" aria-label="Taza que se llena con los ingredientes del café elegido">
+          <defs>
+            <clipPath id="tg-interior"><path d="M36 56 H184 V110 C184 165 153 203 110 203 C67 203 36 165 36 110 Z"/></clipPath>
+            <pattern id="burbujas" width="18" height="14" patternUnits="userSpaceOnUse">
+              <circle cx="4" cy="4" r="2.6" fill="#fff" opacity=".9"/>
+              <circle cx="13" cy="10" r="1.8" fill="#fff" opacity=".8"/>
+              <circle cx="11" cy="3" r="1" fill="#cfe0d6"/>
+            </pattern>
+          </defs>
+          <ellipse cx="118" cy="226" rx="96" ry="9" fill="#2E1104" opacity=".08"/>
+          <g id="tg-vapor" class="tg-vapor" fill="none" stroke="#A8988C" stroke-width="5" stroke-linecap="round">
+            <path d="M92 44 C82 32 102 24 92 10"/>
+            <path d="M112 46 C100 30 124 22 112 2"/>
+            <path d="M132 44 C122 32 142 24 132 10"/>
+          </g>
+          <rect id="tg-chorro" class="tg-chorro" x="104" y="-30" width="12" height="0" rx="6"/>
+          <g clip-path="url(#tg-interior)"><rect x="0" y="0" width="260" height="240" fill="#fff"/><g id="tg-capas"></g></g>
+          <path d="M30 50 H190 V110 C190 170 156 210 110 210 C64 210 30 170 30 110 Z" fill="none" stroke="#283028" stroke-width="12" stroke-linejoin="round"/>
+          <path d="M190 78 H206 C224 78 236 92 236 110 C236 128 224 142 206 142 H190" fill="none" stroke="#283028" stroke-width="12" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="taza-detalle">
+        <p class="taza-detalle-nombre" id="detalle-nombre">Elegí tu café</p>
+        <p class="taza-detalle-texto" id="detalle-texto">Tocá una taza y mirá cómo se arma.</p>
+      </div>
+      <div class="tazas" id="tazas" role="group" aria-label="Elegí un café para ver qué lleva"></div>
+    </div>
+
+    <div class="caja buscador" id="buscador">
+      <h3 class="caja-titulo chico">¿No sabés qué pedir?</h3>
+      <h4 class="banda" id="buscador-banda">Pregunta 1 de 3</h4>
+      <div class="pregunta activa" data-paso="1">
+        <p class="pregunta-txt">¿Cómo lo querés?</p>
+        <div class="opciones">
+          <button data-r="caliente">Caliente</button>
+          <button data-r="frio">Frío</button>
+          <button data-r="sincafe">Sin café</button>
+        </div>
+      </div>
+      <div class="pregunta" data-paso="2">
+        <p class="pregunta-txt">¿Cuánta leche?</p>
+        <div class="opciones">
+          <button data-r="nada">Nada, café solo</button>
+          <button data-r="poca">Un toque</button>
+          <button data-r="mucha">Bastante, bien cremoso</button>
+        </div>
+      </div>
+      <div class="pregunta" data-paso="3">
+        <p class="pregunta-txt">¿Dulce o al natural?</p>
+        <div class="opciones">
+          <button data-r="natural">Al natural, que se sienta el café</button>
+          <button data-r="dulce">Algo dulce, tipo postre</button>
+        </div>
+      </div>
+      <div class="resultado" id="resultado" hidden>
+        <p class="mano res-mano">te recomendamos</p>
+        <p class="res-nombre" id="res-nombre"></p>
+        <p class="res-desc" id="res-desc"></p>
+        <p class="res-acomp">Para acompañar: <strong id="res-acomp"></strong></p>
+        <div class="res-botones">
+          <a href="#reservar" class="boton boton-cafe chico">Reservá y pedilo</a>
+          <button class="boton boton-linea chico" id="res-otra">Volver a empezar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTOS -->
+<section class="seccion eventos" id="eventos">
+  <div class="contenedor eventos-in">
+    <figure class="eventos-foto">
+      <img src="img/mostrador.jpg" alt="Barra de madera iluminada, vitrina de pastelería y la tiendita de café" width="692" height="844" loading="lazy">
+    </figure>
+    <div class="eventos-texto">
+      <div class="titulo-seccion izq">
+        <p class="mano">¿estás armando algo?</p>
+        <h2>Para tu evento</h2>
+      </div>
+      <p class="texto-grande">Hacemos catering y recibimos tu evento. Contanos qué tenés en mente, para cuántas personas y la fecha, y te pasamos las opciones.</p>
+      <div class="eventos-tipos">
+        <div><h3>Tu evento</h3><p>Consultanos para hacerlo en el local.</p></div>
+        <div><h3>Catering</h3><p>Consultá las opciones y te pasamos los detalles.</p></div>
+      </div>
+      <div class="botones">
+        <a href="#reservar" class="boton boton-cafe" data-modo-evento>Armá tu consulta</a>
+        <a href="#" class="boton boton-linea" data-wa="Hola! Quería consultar por un evento / catering con Grano Subterráneo.">Escribinos por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EL LUGAR -->
+<section class="seccion lugar" id="el-lugar">
+  <div class="contenedor">
+    <div class="titulo-seccion">
+      <p class="mano">vení a conocernos</p>
+      <h2>El lugar</h2>
+      <p class="texto-grande centro">Madera, luz cálida y una barra donde ves salir cada café. Para desayunar, merendar, trabajar un rato o llevarte algo.</p>
+    </div>
+    <div class="galeria">
+      <figure class="g1"><img src="img/interior.jpg" alt="Salón con mesas de madera y la barra al fondo" width="694" height="841" loading="lazy"></figure>
+      <figure class="g2"><img src="img/cartel.jpg" alt="Cartel redondo de madera con el logo, sobre una mesa para dos" width="519" height="836" loading="lazy"></figure>
+      <figure class="g3"><img src="img/vaso-take-away.jpg" alt="Vaso take away con el logo de Grano Subterráneo" width="1016" height="838" loading="lazy"></figure>
+      <figure class="g4"><img src="img/cafe-osito.jpg" alt="Café con arte latte en forma de osito" width="519" height="836" loading="lazy"></figure>
+      <figure class="g5"><img src="img/fachada-noche.jpg" alt="Fachada de noche con el cartel iluminado" width="693" height="747" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- RESEÑAS -->
+<section class="seccion resenas" id="resenas">
+  <img class="deco deco-galleta" src="img/deco-galleta.svg" alt="">
+  <div class="contenedor">
+    <div class="google-caja">
+      <div class="google-nota">
+        <p class="google-marca">Google <span>Reviews</span></p>
+        <p class="google-num"><strong data-rating>4,8</strong> <span class="estrellas">★★★★★</span></p>
+      </div>
+      <div class="google-texto">
+        <p class="google-titulo">¡Valorá tu experiencia en Google!</p>
+        <p>Tu voz nos es muy importante, compartí tu opinión.</p>
+      </div>
+      <a href="#" class="boton boton-blanco" data-resena target="_blank" rel="noopener">Dejar mi opinión</a>
+    </div>
+
+    <div class="resenas-tira">
+      <blockquote class="resena revelar">
+        <p>“La pastelería de Grano Subterráneo es espectacular: todo se nota fresco, casero y elaborado con muchísimo cuidado. […] Un lugar ideal para acompañar un buen café con algo rico.”</p>
+        <footer><span class="estrellas">★★★★★</span> Joaquín G.</footer>
+      </blockquote>
+      <blockquote class="resena revelar">
+        <p>“La comida deliciosa al igual que el café, y el subsuelo es ideal para ir a pasar tiempo de calidad solo o con alguien, así como también ir a trabajar.”</p>
+        <footer><span class="estrellas">★★★★★</span> Georgina M.</footer>
+      </blockquote>
+      <blockquote class="resena revelar">
+        <p>“Pedimos brownie, chipá relleno de jamón y queso, limonada y americano frío. El brownie totalmente destacable!! […] Muy recomendable.”</p>
+        <footer><span class="estrellas">★★★★★</span> Bruno y Bian</footer>
+      </blockquote>
+      <blockquote class="resena revelar">
+        <p>“Un lugar muy lindo en Atlántida para tomar un rico café con muy buena atención y acompañamientos dulces y salados deliciosos.”</p>
+        <footer><span class="estrellas">★★★★★</span> Carlos R.</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- VISITANOS -->
+<section class="seccion visitanos" id="visitanos">
+  <div class="contenedor visitanos-in">
+    <div class="visitanos-info">
+      <div class="titulo-seccion izq">
+        <p class="mano">te esperamos</p>
+        <h2>Visitanos</h2>
+      </div>
+      <p class="direccion" data-direccion></p>
+      <p class="estado-hoy" data-estado></p>
+      <div class="caja caja-horarios">
+        <h4 class="banda">Horarios</h4>
+        <table class="horarios" id="horarios"></table>
+      </div>
+      <div class="botones">
+        <a href="#" class="boton boton-cafe" data-como-llegar target="_blank" rel="noopener">Cómo llegar</a>
+        <a href="#" class="boton boton-linea" data-wa="Hola! Quería hacer una consulta.">WhatsApp</a>
+      </div>
+    </div>
+    <div class="mapa">
+      <iframe id="mapa" title="Mapa de Grano Subterráneo en Atlántida" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVÁ -->
+<section class="seccion reservar" id="reservar">
+  <div class="contenedor">
+    <div class="titulo-seccion">
+      <p class="mano">guardamos tu lugar</p>
+      <h2>Reservá</h2>
+    </div>
+    <div class="reservar-in">
+      <div class="asistente" id="asistente">
+        <div class="modos" role="tablist" aria-label="Tipo de reserva">
+          <button role="tab" aria-selected="true" data-modo="mesa">Una mesa</button>
+          <button role="tab" aria-selected="false" data-modo="evento">Evento o catering</button>
+        </div>
+
+        <div class="modo-panel" data-panel="mesa">
+          <div class="campo-asistente en-linea">
+            <span class="rotulo">¿Cuántos son?</span>
+            <div class="contador">
+              <button type="button" data-menos aria-label="Menos personas">−</button>
+              <output id="personas">2</output>
+              <button type="button" data-mas aria-label="Más personas">+</button>
+            </div>
+          </div>
+          <div class="campo-asistente">
+            <span class="rotulo">¿Qué día?</span>
+            <div class="chips" id="dias"></div>
+          </div>
+          <div class="campo-asistente">
+            <span class="rotulo">¿A qué hora?</span>
+            <div class="chips chips-hora" id="horas"></div>
+          </div>
+        </div>
+
+        <div class="modo-panel" data-panel="evento" hidden>
+          <div class="campo-asistente">
+            <span class="rotulo">¿Qué querés armar?</span>
+            <div class="chips" id="tipo-evento">
+              <button type="button" class="chip activo">Evento en el local</button>
+              <button type="button" class="chip">Catering</button>
+            </div>
+          </div>
+          <div class="fila-dos">
+            <label class="campo-asistente">
+              <span class="rotulo">Personas (aprox.)</span>
+              <input type="number" id="ev-personas" min="1" max="200" value="10" inputmode="numeric">
+            </label>
+            <label class="campo-asistente">
+              <span class="rotulo">Fecha</span>
+              <input type="date" id="ev-fecha">
+            </label>
+          </div>
+        </div>
+
+        <label class="campo-asistente">
+          <span class="rotulo">¿A nombre de quién?</span>
+          <input type="text" id="as-nombre" autocomplete="given-name" placeholder="Tu nombre" maxlength="40">
+        </label>
+
+        <div class="mensaje-preview">
+          <span class="rotulo">Tu mensaje</span>
+          <p id="preview"></p>
+        </div>
+        <button class="boton boton-wa ancho" id="enviar-wa" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg> Enviar por WhatsApp
+        </button>
+        <p class="aviso" id="aviso-wa">La reserva queda confirmada cuando te respondan por WhatsApp.</p>
+      </div>
+
+      <div class="contacto">
+        <h3 class="contacto-titulo">¿Preferís escribirnos?</h3>
+        <p class="contacto-bajada">Te respondemos al correo.</p>
+        <form id="formulario" novalidate>
+          <input type="hidden" name="access_key" id="f-key">
+          <input type="hidden" name="subject" value="Nueva consulta desde la web de Grano Subterráneo">
+          <input type="hidden" name="from_name" value="Web Grano Subterráneo">
+          <input type="hidden" name="replyto" id="f-replyto">
+          <input type="checkbox" name="botcheck" class="trampa" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="fila-dos">
+            <div class="campo">
+              <label for="f-nombre">Nombre</label>
+              <input id="f-nombre" name="Nombre" type="text" autocomplete="given-name" maxlength="40">
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="campo">
+              <label for="f-apellido">Apellido</label>
+              <input id="f-apellido" name="Apellido" type="text" autocomplete="family-name" maxlength="40">
+              <small class="error" aria-live="polite"></small>
+            </div>
+          </div>
+          <div class="fila-dos">
+            <div class="campo">
+              <label for="f-correo">Correo electrónico</label>
+              <input id="f-correo" name="Correo electrónico" type="email" autocomplete="email" maxlength="80">
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="campo">
+              <label for="f-telefono">Teléfono</label>
+              <input id="f-telefono" name="Teléfono" type="tel" autocomplete="tel" placeholder="09X XXX XXX" maxlength="20">
+              <small class="error" aria-live="polite"></small>
+            </div>
+          </div>
+          <div class="campo">
+            <label for="f-tipo">Tipo de consulta</label>
+            <select id="f-tipo" name="Tipo de consulta">
+              <option value="">Elegí una opción</option>
+              <option>Reserva de mesa</option>
+              <option>Evento o catering</option>
+                            <option>Consulta general</option>
+            </select>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="campo">
+            <label for="f-mensaje">Mensaje</label>
+            <textarea id="f-mensaje" name="Mensaje" rows="3" maxlength="800"></textarea>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <button type="submit" class="boton boton-cafe ancho" id="f-enviar">Enviar consulta</button>
+          <p class="form-estado" id="form-estado" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="contenedor pie-in">
+    <div class="pie-marca">
+      <img src="img/logo-grano-subterraneo-blanco.svg" alt="Grano Subterráneo" width="200" height="122" loading="lazy">
+      <a href="#" class="pie-ig" data-instagram target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="lleno"/></svg>
+        @granosubterraneo
+      </a>
+    </div>
+    <div class="pie-col">
+      <h3>Horarios</h3>
+      <ul class="pie-horarios" id="pie-horarios"></ul>
+    </div>
+    <div class="pie-col">
+      <h3>Dónde</h3>
+      <p data-direccion></p>
+      <a href="#" data-como-llegar target="_blank" rel="noopener">Cómo llegar →</a>
+    </div>
+    <div class="pie-col">
+      <h3>Contacto</h3>
+      <a href="#" data-wa="Hola!">WhatsApp →</a>
+      <a href="#" data-tiktok target="_blank" rel="noopener">TikTok →</a>
+      <a href="#" data-pedidosya target="_blank" rel="noopener" hidden>PedidosYa →</a>
+    </div>
+  </div>
+  <div class="contenedor pie-legal">
+    <p>© <span id="anio"></span> Grano Subterráneo · Atlántida, Canelones</p>
+    <p>Web por <a href="mailto:metherisstudios@gmail.com">Metheris Studios</a></p>
+  </div>
+</footer>
+
+<a href="#" class="wa-flotante" data-wa="Hola! Quería hacer una consulta." aria-label="Escribinos por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg>
+</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ico-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.85 9.85 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.2 8.2 0 0 1 8.24 8.25c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.81-.78.97-.15.17-.29.19-.54.06a6.8 6.8 0 0 1-2-1.23 7.4 7.4 0 0 1-1.38-1.72c-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42h-.48a.9.9 0 0 0-.66.31 2.78 2.78 0 0 0-.86 2.06c0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+</svg>
+
+<script src="js/main.js"></script>
+</body>
+</html>
